@@ -1,0 +1,152 @@
+/* colors */
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --yellow: hsl(71, 73%, 54%);
+
+    --gray: hsl(204, 43%, 93%);
+    --blue: hsl(218, 22%, 67%);
+}
+
+@media screen and (max-width:1440px){
+    body{
+        background-color: green;
+    }
+}
+
+@media (max-width:900px) {
+    body{
+        background-color: red;
+    }
+
+    #introduction{
+        background-color: blue;
+        width: 50px;
+    }
+
+    #description{
+        width: 1000px;
+    }
+
+    #why-us{
+        width: 100%;
+    }
+
+    #part2{
+        display: inline-block;
+    }
+
+}
+
+*{
+    font-family: 'Karla', sans-serif;
+}
+
+body{
+    margin: 10%;
+}
+
+/* introduction */
+
+#introduction{
+    background-color: var(--gray);
+    font-size: 16px;
+
+    height: 170px;
+    width: 160%;
+
+    padding: 6.5% 0% 0% 6.5%;
+    margin: 0%;
+
+    border-radius: 10px 10px 0px 0px;
+}
+
+#introduction h3{
+    color: var(--cyan);
+}
+
+#introduction h4{
+    color: var(--yellow);
+}
+
+#introduction p{
+    color: var(--blue);
+    margin:0%;
+    line-height: 1.6;
+}
+
+/* description */
+
+#description{
+    background-color: var(--cyan);
+    font-size: 16px;
+    color: var(--gray);
+
+    padding: 5%;  
+
+    width: 50%;
+    
+    border-radius: 0px 0px 0px 10px;
+}
+
+.button{
+    background-color: var(--yellow);
+    color: var(--gray);
+    font-weight: bold;
+    font-size: 18px;
+    
+    border-radius: 3px;
+    border:none;
+
+    display: inline;
+
+    height: 50px;
+    width: 80%;
+}
+
+small{
+    font-size: 17px;
+    color: hsl(179, 47%, 61%);
+}
+
+big{
+    font-size: 35px;
+}
+
+/* Why Us */
+
+#why-us{
+    background-color: hsl(179, 47%, 61%);
+    color: var(--gray);
+    line-height: 1.6;
+
+    padding: 5%;  
+    
+    width: 50%;
+
+    border-radius: 0px 0px 10px 0px;
+}
+
+#why-us p{
+    color: hsl(180, 63%, 85%);
+    margin:0%;
+}
+
+
+/* -- */
+
+h3{
+    margin: 0%;
+}
+
+#part1{
+    margin: 0% 0% 0% 0%;
+    width: 60%;
+}
+
+#part2{
+    margin: 0% 0% 0% 0%;
+
+    display: flex;
+
+}
+
